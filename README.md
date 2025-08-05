@@ -32,9 +32,10 @@ npm install
 
 # Start the development server
 npm run dev
-The app will be available at http://localhost:5173/ (or the port shown in your terminal).
+```
 
 ## 🧪 Running Tests
+```bash
 # Run all unit tests
 npm run test
 
@@ -43,15 +44,19 @@ npm run test:watch
 
 # Run tests and generate code coverage
 npm run coverage
-
+```
+---
 ## 📁 Folder Structure
+```bash
 src/
 ├── components/         # React components (e.g., Filters, AddTask)
 ├── redux/              # Redux slices (e.g., tasksSlice.js)
 ├── tests/              # Unit tests
 ├── App.jsx
 └── main.jsx
-
+```
 ## 📜 License
+```bash
 This project is licensed under the MIT License.
 Feel free to use it for personal or commercial projects
+```
